@@ -1,0 +1,5 @@
+main_mac.txt
+__pycache__/
+.DS_Store
+*.mpy
+*.bin
