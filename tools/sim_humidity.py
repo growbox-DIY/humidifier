@@ -1,6 +1,6 @@
 # sim_humidity.py - humidifier test without a sensor, on a dev (main) ESP
 #
-# Real logic from growbox-firmware (App/humidifier.py), only
+# Real logic from growbox-firmware (src/humidifier.py), only
 # sensor.get() returns a fake humidity: a drop below the "min" threshold
 # and a rise back above "max". The script
 # goes to RAM only and uses the modules already flashed on the board:

@@ -56,7 +56,7 @@ mpremote connect /dev/cu.usbmodem21101 cp src/main.py :main.py
 ## Testing
 
 `tools/sim_humidity.py` and `tools/sim_live.py` run the real humidifier
-logic of the main controller (`App/humidifier.py` from growbox-firmware)
+logic of the main controller (`src/humidifier.py` from growbox-firmware)
 on a spare main ESP with a simulated humidity, for testing the whole
 chain without a sensor. They go to RAM only and use the modules already
 on that board:

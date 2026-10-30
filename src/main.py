@@ -1,5 +1,5 @@
 # main.py - mini ESP (ESP32-C3) in the humidifier: relay controlled by
-# the main ESP over ESP-NOW (growbox-firmware, App/humidifier.py).
+# the main ESP over ESP-NOW (growbox-firmware, src/humidifier.py).
 #
 # Safety: the relay is off from boot, switches off after LINK_TIMEOUT_MS
 # without a message from the main ESP, and the watchdog resets a hung
